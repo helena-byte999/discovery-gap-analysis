@@ -104,4 +104,4 @@ In PopSQL instead: run `05_listener_counts.sql` and `06_liked_but_lost.sql`, exp
 - **Lean-back mixes autoplay with the listener's own playlists,** and "liked" means only "not skipped".
 - **Size is relative** to what these listeners play, and untagged artists fall back to fixed cut-offs, where the Last.fm undercount of African artists isn't corrected.
 - **"First listen" means first in the export,** and catalogue sizes aren't known (see Q13).
-- **Observational data:** recommendations that weren't played, and discovery off Spotify, can't be seen.
+- **Observational data:** the export only shows plays. Recommendations that were shown but not played can't be seen, and neither can discovery off Spotify (TikTok, radio, Shazam). A song found on Shazam and then played on Spotify looks like an ordinary chosen play.
