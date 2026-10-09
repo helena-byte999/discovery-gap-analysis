@@ -1,0 +1,34 @@
++------------+---------+-------------+-----------+-----------+
+| genre      | artists | small_fixed | mid_fixed | big_fixed |
++------------+---------+-------------+-----------+-----------+
+| amapiano   |     148 |         147 |         0 |         1 |
+| afrobeats  |     412 |         357 |        53 |         2 |
+| hip-hop    |    2984 |        1548 |      1213 |       223 |
+| r&b        |    1775 |         866 |       762 |       147 |
+| electronic |    2556 |        1243 |      1159 |       154 |
+| pop        |    1744 |         671 |       825 |       248 |
+| rock       |    1058 |         345 |       408 |       304 |
+| indie      |    1914 |         615 |      1028 |       271 |
++------------+---------+-------------+-----------+-----------+
++----------------+-----------+------------------+---------------+-------------------+
+| artist_name    | genre     | lastfm_listeners | fixed_cutoffs | rank_within_genre |
++----------------+-----------+------------------+---------------+-------------------+
+| Burna Boy      | afrobeats |           853034 | mid           | big               |
+| Tems           | afrobeats |           800341 | mid           | big               |
+| Wizkid         | afrobeats |           633839 | mid           | big               |
+| Asake          | afrobeats |           358513 | mid           | big               |
+| Davido         | afrobeats |           311794 | mid           | big               |
+| Kabza De Small | amapiano  |            37798 | small         | big               |
++----------------+-----------+------------------+---------------+-------------------+
++--------------------------------------------+-----------+------+--------------------+
+| rule_set                                   | size_tier | lost | pct_different_song |
++--------------------------------------------+-----------+------+--------------------+
+| A all liked but lost                       | small     | 4265 |                2.3 |
+| A all liked but lost                       | big       | 2413 |                7.1 |
+| B + played to the end                      | small     | 3864 |                2.3 |
+| B + played to the end                      | big       | 2168 |                7.0 |
+| C + tagged, not functional (trigger rules) | small     | 1226 |                3.3 |
+| C + tagged, not functional (trigger rules) | big       | 2127 |                7.1 |
+| D + 3 or more songs seen                   | small     |  415 |                8.7 |
+| D + 3 or more songs seen                   | big       | 1661 |                8.9 |
++--------------------------------------------+-----------+------+--------------------+

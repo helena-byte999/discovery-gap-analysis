@@ -1,0 +1,24 @@
+THE PROBLEM (measured; 'without top' leaves out L05)
+  Liked lesser-known artists not heard again within 2 weeks: 84% without top, 79% with (big artists: 80% / 77%)
+  Per listener per month: median 4.8 (range 1.1 to 103.9)
+  Of the lost ones, share reaching each outcome in days 30-90:
+                                     lesser-known    big   (without top; with everyone in brackets)
+  a different song                           2.3%   7.1%   (3.3% / 8.7%)
+  any play (stuck)                           4.9%  12.8%   (7.1% / 14.4%)
+  For comparison, lesser-known artists that DID come back within 2 weeks: 7.5% reach a different song (correlation, not proof that a return causes it)
+  Within each listener, big minus lesser-known on 'a different song': median 5.0 pts, 10 of 10 listeners
+  Meeting the trigger rules: 29% of lost lesser-known artists; of those, 3.3% reach a different song (big: 7.1%)
+
+WHAT A FIX COULD BE WORTH (baseline 3.3%, per 1 million listeners like the median one, per month)
+  Funnel: 1.2 triggers a month (cap 8) x share heard x baseline x relative lift
+  low : 30% heard, +25% relative lift -> 2,992 more listener-artist connections that reach a second song
+  high: 70% heard, +100% relative lift -> 27,929 more listener-artist connections that reach a second song
+
+A/B TEST SIZE (intention-to-treat: every triggered artist counts, heard or not)
+  ICC measured 0.000, planned with 0.02; triggers per listener: mean 2.9, CV 1.0; design effect 1.10
+  low : 3.26% -> 3.51%: 85,738 re-introductions per arm, about 32,977 listeners per arm
+  high: 3.26% -> 5.55%: 1,267 re-introductions per arm, about 488 listeners per arm
+
+  Randomise by listener; log a 'would have triggered' flag in control too, so the triggered
+  groups can be compared directly; analyse with listener-clustered standard errors.
+  What limits the test is TIME: the primary metric needs 90 days after each re-introduction.

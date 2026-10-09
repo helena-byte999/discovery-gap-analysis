@@ -1,0 +1,32 @@
+# Private: never publish. Friends' raw listening data and anything that could identify them.
+ext_streaming_history/
+02_load_data.sql
+unwrapped/
+interview/
+old_versions/
+results/04_output*.txt
+results/raw/
+
+# Contains the Last.fm key if you ever save it here
+.env
+
+# Python and macOS clutter
+__pycache__/
+.DS_Store
+
+# The site has its own repo (helena-byte999/discovery-gap)
+site/
+
+# Artist lists the lookups ran on: they name every artist the friends played, with play counts
+artists.csv
+artists_to_tag.csv
+artist_info.csv
+deezer_info.csv
+
+# Fake sample exports: regenerate with generate_sample_exports.py (fixed seed)
+sample_data/
+
+# Working notes
+PLAN.md
+ISSUES.md
+LEARNING.md
