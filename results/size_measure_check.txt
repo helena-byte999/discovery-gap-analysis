@@ -1,0 +1,3 @@
+African  16 artists  median Spotify/Last.fm ratio  28.6  rank correlation 0.91
+Western  14 artists  median Spotify/Last.fm ratio   8.1  rank correlation 0.91
+Undercount of African vs Western artists on Last.fm: 3.5x

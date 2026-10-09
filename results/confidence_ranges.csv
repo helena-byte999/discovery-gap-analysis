@@ -1,0 +1,16 @@
+metric,pooled,ci95_low,ci95_high,pooled_without_top,leave_one_out_min,leave_one_out_max,per_listener_mean,per_listener_median,listeners_showing,sign_test_p
+F1 lean-back first-listen skip: lesser-known,7.9,3.5,24.5,16.1,6.7,16.1,,,,
+F1 lean-back first-listen skip: big,17.8,9.3,31.9,24.3,15.6,24.3,,,,
+F1 gap: big minus lesser-known (pts),9.9,3.7,14.0,8.2,8.2,11.0,1.2,2.0,7 of 10 (0 level),0.344
+F2 lesser-known share: lean-back new artists,56.2,38.5,63.1,46.4,46.4,57.5,,,,
+F2 lesser-known share: chosen new artists,41.3,32.1,49.8,39.5,39.1,45.6,,,,
+F2 gap: lean-back minus chosen (pts),14.8,0.8,23.6,6.9,6.9,17.6,-0.8,0.6,5 of 10 (1 level),1.0
+F3 stuck 30-90 days: lesser-known,11.9,6.2,14.6,7.2,7.2,13.0,,,,
+F3 stuck 30-90 days: big,19.0,13.6,22.3,16.5,16.5,20.0,,,,
+F3 gap: big minus lesser-known (pts),7.2,4.5,11.2,9.3,5.9,9.3,8.5,8.8,10 of 10 (0 level),0.002
+F4 back within 30d after a liked listen: lesser-known,24.4,18.5,27.3,20.2,20.2,25.8,,,,
+F4 back within 30d after a liked listen: big,29.3,23.5,33.2,27.0,27.0,30.9,,,,
+F4 gap: big minus lesser-known (pts),4.9,2.5,8.8,6.8,3.9,6.8,5.9,5.7,8 of 10 (1 level),0.039
+F4 lean-back return gap: big minus lesser-known (pts),1.1,-0.7,4.9,3.2,0.5,3.2,4.4,5.1,8 of 10 (0 level),0.109
+F4 listener clicked back: lesser-known,1.0,0.6,2.1,1.8,0.8,1.8,,,,
+F4 listener clicked back: big,1.9,1.4,2.5,2.2,1.8,2.2,,,,

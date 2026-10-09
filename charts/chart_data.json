@@ -1,0 +1,51 @@
+{
+  "how_found": {
+    "listeners": 10,
+    "n_lean_back": 26215,
+    "n_chosen": 7447,
+    "lean_back": {
+      "Lesser-known": 56.2,
+      "Mid": 21.2,
+      "Big": 22.6
+    },
+    "chosen": {
+      "Lesser-known": 41.4,
+      "Mid": 19.9,
+      "Big": 38.7
+    }
+  },
+  "second_chance": {
+    "listeners": 10,
+    "Lesser-known": {
+      "spotify": 21.5,
+      "listener": 1.1,
+      "other": 1.9
+    },
+    "Mid": {
+      "spotify": 22.9,
+      "listener": 1.6,
+      "other": 2.9
+    },
+    "Big": {
+      "spotify": 22.5,
+      "listener": 1.9,
+      "other": 4.8
+    }
+  },
+  "liked_but_lost": {
+    "listeners": 9,
+    "left_out": "L05",
+    "Lesser-known": {
+      "back": 7.6,
+      "lost": 2.3,
+      "share_back": 16.5,
+      "share_lost": 83.5
+    },
+    "Big": {
+      "back": 24.3,
+      "lost": 7.2,
+      "share_back": 20.3,
+      "share_lost": 79.7
+    }
+  }
+}
