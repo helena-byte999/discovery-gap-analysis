@@ -16,7 +16,7 @@
 
 - **Fair first listen.** There's no sign lesser-known artists are skipped more when they first come up. Within each listener the difference is small, and if anything goes their way.
 - **They don't stick.** For **all 10 listeners**, fewer lesser-known artists were still being played 30–90 days after the first listen. That's 9 points fewer for the typical listener (12% vs 19% pooled).
-- **The second chance is luck.** After a first listen the listener *liked* (didn't skip), most artists of any size aren't heard again within two weeks: 84% of lesser-known and 80% of big ones. The difference is what happens next. In days 30–90, a *different song* gets played for only 2.3% of these lesser-known artists, against 7.1% of big ones. Listeners rarely go back on their own: they click back to a new artist after just 1–2% of liked first listens. *(Figures leave out the one listener who dominates this group; see Finding 3.)*
+- **The second chance is luck.** After a first listen the listener *liked* (didn't skip), most artists of any size aren't heard again within two weeks: 84% of lesser-known and 80% of big ones (nine listeners; with all ten, 79% and 77%). The difference is what happens next. In days 30–90, a *different song* gets played for only 2.3% of these lesser-known artists, against 7.1% of big ones. Listeners rarely go back on their own: they click back to a new artist after just 1–2% of liked first listens. *(Figures leave out the one listener who dominates this group; see Finding 3.)*
 
 **Proposal: "Second Listen."** When a liked lesser-known artist hasn't come back after two weeks, bring them back once, with a **different** song, in the radio, autoplay or mix where the listener first heard them. Test it with an A/B experiment. The primary metric is whether the listener plays another song by that artist in days 30–90, not counting the re-introduced song.
 
@@ -197,7 +197,7 @@ For big artists, other routes seem to fill in: listener clicks and "other" start
 ## 10. Limits and reflection
 
 **Limits**
-- **The sample:** 10 friends, mostly heavy listeners in Nigeria and the UK. One listener has 27% of the plays; another supplies over half the lesser-known lean-back first listens.
+- **The sample:** 10 friends, mostly heavy listeners in Nigeria and the UK. One listener has 28% of the plays; another supplies over half the lesser-known lean-back first listens.
   - This is why every finding is shown within each listener as well as pooled.
   - The ranges describe variation among listeners like these, not Spotify's users.
 - **Proxies:**
