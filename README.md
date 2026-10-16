@@ -100,7 +100,7 @@ In PopSQL instead: run `05_listener_counts.sql` and `06_liked_but_lost.sql`, exp
 
 ## Limitations
 
-- **10 friends, mostly heavy listeners in Nigeria and the UK.** Every gap is therefore checked *within* each listener, not just pooled. One listener has about 27% of the plays, and another supplies over half the lesser-known lean-back first listens.
+- **10 friends, mostly heavy listeners in Nigeria and the UK.** Every gap is therefore checked *within* each listener, not just pooled. One listener has about 28% of the plays, and another supplies over half the lesser-known lean-back first listens.
 - **Lean-back mixes autoplay with the listener's own playlists,** and "liked" means only "not skipped".
 - **Size is relative** to what these listeners play, and untagged artists fall back to fixed cut-offs, where the Last.fm undercount of African artists isn't corrected.
 - **"First listen" means first in the export,** and catalogue sizes aren't known (see Q13).
